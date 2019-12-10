@@ -3,4 +3,5 @@ require "./question"
 require "./player"
 
 game = Game.new
-game.ask_question
+game.create_new_round
+game.compare_lives

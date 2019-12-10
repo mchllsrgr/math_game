@@ -1,4 +1,8 @@
 class Player
+  attr_reader :name
+  attr_accessor :score
+  attr_accessor :number_of_lives
+
   def initialize(n)
     @name = n
     @score = 0
