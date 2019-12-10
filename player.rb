@@ -1,5 +1,5 @@
 class Player
-  def initialize(n, s, l)
+  def initialize(n)
     @name = n
     @score = 0
     @number_of_lives = 3
